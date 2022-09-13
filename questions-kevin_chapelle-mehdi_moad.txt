@@ -1,0 +1,64 @@
+Kévin CHAPELLE
+Mehdi MOAD 
+E5-WMD
+
+1-	C’est quoi Solidity ?
+Solidity est un langage orienté objet, de haut niveau pour la mise en œuvre de smart contract. 
+Les smart contracts sont des programmes qui régissent le comportement des comptes dans la blockchain
+Les transactions se traduisent par des fonctions exécutées dans des smart contract, permettant de créer un workflow métier.
+On l’utilise notamment pour la blockchain Ethereum
+
+2-	Quelle est la dernière version stable du compilateur ?
+La dernière version stable est la v0.8.17
+https://github.com/ethereum/solidity/releases
+
+3-	Qu’est-ce qu’un smart contract ? ET comment fonctionne-t-il ?
+Les smart contracts, ou contrats intelligents, sont des programmes informatiques irrévocables, le plus souvent déployés sur une blockchain, qui exécutent un ensemble d’instructions prédéfinies et qui régissent le comportement dans la blockchain
+
+4-	Quels sont les outils utilisés pour développer un smart contract ?
+Les IDE : Remix & EthFiddle
+Réseau de test : Rinkeby, Kovan et Ropsten
+Les frameworks : Truffle, Hardhat, OpenZeppelin SDK
+Langage : Solidity ou Vyper, pour construire des contrats intelligents sur Ethereum, Binance Chain, Tron
+C++, sur la blockchain EOS
+Golang, pour Hyperledger
+
+5-	Quelle est la première ligne de code dans un smart contract ?
+La licence comme : //SPDX-License-Identifier : MIT
+
+6-	Qu’est-ce qu’un jeton ? Et quels sont les types de jetons utilisés ?
+Un Token est une représentation de quelque chose dans la blockchain. Ça peut être de l’argent, du temps, des services, des actions, dans une entreprise, ou encore plein d’autre chose. La représentation par des tokens permet aux smart contracts d’interagir avec les représentations, de les échanger et de les créer ou de les détruire.
+Il y a 6 types de jetons :
+Platform tokens.
+Security tokens. 
+Transactional tokens. 
+Utility tokens.
+Les tokens unique (NFT) 
+Governance tokens.
+Les normes :
+ERC20 ce jeton va permettre l’approvisionnement
+ERC 721 c’est une norme qui permet de rendre le jeton unique
+ERC 777 est une norme pour les jetons uniques et qui permet les interactions complexe lors de l’échange de jeton
+ERC 1155 est une norme de jeton qui permet de tirer le meilleur parti des normes précédente pour créer un contrat de jeton unique et économe en gaz
+
+7-	Quelle est la structure basique d’un jeton ?
+Un jeton est constitué de méthode (fonction) pour transférer l’adresse de l’émetteur et pour transférer le jeton, de l’adresse du propriétaire, d’un solde, d’une balance
+
+8-	Quel réseau de test est compatible avec client Geth ?
+Rinkeby 
+
+9-	C’est quoi remix-ethereum ?
+Remix-ethereum est un IDE basé sur le web, ne nécessitant ni installation ni configuration. Il permet de développer, déployer et administrer des contrats intelligents
+
+10-	Quels sont les différents réseaux de Blockchain ? Citez les limites et quelques solutions
+Les différents types de réseaux sont :
+Réseaux de test (voir question 8) : l s'agit de réseaux utilisés par les développeurs de protocoles ou de contrats intelligents pour tester, dans un environnement de production
+Réseaux privés Enterprise Ethereum : si ses nœuds ne sont pas connectés à un réseau public
+Réseau de développement : ganache, hardhat : exécuter sur un réseau local pour vérifier son fonctionnement avant de la déployer.
+Réseau de consortium : c’est un l’équivalent d’un intranet privé.
+Réseau public : N'importe qui peut lire ou créer des transactions sur une blockchain publique, et valider les transactions exécutées. L'accord sur les transactions et l'état du réseau est décidé par un consensus des pairs.
+Réseau principal : Le réseau principal est la blockchain publique primaire de production, où des transactions de valeur réelle se produisent sur le registre distribué.
+
+11-	Définir la Blockchain avec vos mots propre et citez quelques cas d’usages.
+C’est une technologie de stockage et de transmission d’information sous forme de block reliées les uns aux autres et très sécurisé pour éviter toute modification. Grâce a elle on peut obtenir l’historique complet des transactions effectuées. On peut partager ou échanger de la donnée sans intermédiaire. Elle est rapide.
+Exemple : création de contenus (nft), l’échange, la puissance de calcul, le stockage de données.
